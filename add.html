@@ -3,8 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Add Guitar</title>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+    <script defer src="js/loadNavbar.js"></script>
+    <script defer src="js/formHandler.js"></script>
 </head>
 <body>
+<div id="navbar-container"></div>
+<div class="container">
+    <form class="guitar-form" id="guitarForm">
+        <h1>Add Guitar</h1>
+        <div class="form-group">
+            <label for="guitarSerialNumber">Serial number:</label>
+            <input id="guitarSerialNumber" name="guitarSerialNumber" required type="text">
+        </div>
+        <div class="form-group">
+            <label for="guitarPrice">Guitar Price:</label>
+            <input id="guitarPrice" name="guitarPrice" required type="number">
+        </div>
+        <div class="form-group">
+            <label for="guitarBuilder">Guitar Builder:</label>
+            <input id="guitarBuilder" name="guitarBuilder" required type="text">
+        </div>
+        <div class="form-group">
+            <label for="guitarModel">Guitar Model:</label>
+            <input id="guitarModel" name="guitarModel" required type="text">
+        </div>
+        <div class="form-group">
+            <label for="guitarType">Guitar Type:</label>
+            <input id="guitarType" name="guitarType" required type="text">
+        </div>
+        <div class="form-group">
+            <label for="guitarBackWood">Guitar Back Wood:</label>
+            <input id="guitarBackWood" name="guitarBackWood" required type="text">
+        </div>
+        <div class="form-group">
+            <label for="guitarTopWood">Guitar Top Wood:</label>
+            <input id="guitarTopWood" name="guitarTopWood" required type="text">
+        </div>
 
+        <div class="button-container">
+            <button type="submit">Add Guitar</button>
+        </div>
+    </form>
+</div>
 </body>
 </html>

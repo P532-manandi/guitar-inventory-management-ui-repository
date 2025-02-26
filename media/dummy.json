@@ -1,0 +1,56 @@
+[
+  {
+    "serialNumber": "SN12345",
+    "price": "1500",
+    "builder": "Fender",
+    "model": "Stratocaster",
+    "type": "Electric",
+    "backWood": "Alder",
+    "topWood": "Maple"
+  },
+  {
+    "serialNumber": "SN67890",
+    "price": "2000",
+    "builder": "Gibson",
+    "model": "Les Paul",
+    "type": "Electric",
+    "backWood": "Mahogany",
+    "topWood": "Maple"
+  },
+  {
+    "serialNumber": "SN11121",
+    "price": "1200",
+    "builder": "Martin",
+    "model": "D-28",
+    "type": "Acoustic",
+    "backWood": "Rosewood",
+    "topWood": "Spruce"
+  },
+  {
+    "serialNumber": "SN14151",
+    "price": "1800",
+    "builder": "Taylor",
+    "model": "814ce",
+    "type": "Acoustic",
+    "backWood": "Rosewood",
+    "topWood": "Spruce"
+  },
+  {
+    "serialNumber": "SN16171",
+    "price": "1600",
+    "builder": "Gibson",
+    "model": "SG",
+    "type": "Electric",
+    "backWood": "Mahogany",
+    "topWood": "Maple"
+  },
+  {
+    "serialNumber": "SN18191",
+    "price": "1400",
+    "builder": "Fender",
+    "model": "Telecaster",
+    "type": "Electric",
+    "backWood": "Alder",
+    "topWood": "Maple"
+  }
+]

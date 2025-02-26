@@ -2,9 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Search Guitar</title>
+    <title>Search Guitars</title>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+    <script defer src="js/loadNavbar.js"></script>
+    <script defer src="js/searchHandler.js"></script>
 </head>
 <body>
-
+<div id="navbar-container"></div>
+<div class="container">
+    <form class="guitar-form" id="searchForm">
+        <h1>Search Guitars</h1>
+        <div class="form-group">
+            <label for="guitarBuilder">Guitar Builder:</label>
+            <input id="guitarBuilder" name="guitarBuilder" type="text">
+        </div>
+        <div class="form-group">
+            <label for="guitarModel">Guitar Model:</label>
+            <input id="guitarModel" name="guitarModel" type="text">
+        </div>
+        <div class="form-group">
+            <label for="guitarType">Guitar Type:</label>
+            <input id="guitarType" name="guitarType" type="text">
+        </div>
+        <div class="form-group">
+            <label for="guitarBackWood">Guitar Back Wood:</label>
+            <input id="guitarBackWood" name="guitarBackWood" type="text">
+        </div>
+        <div class="form-group">
+            <label for="guitarTopWood">Guitar Top Wood:</label>
+            <input id="guitarTopWood" name="guitarTopWood" type="text">
+        </div>
+        <div class="button-container">
+            <button type="submit">Search</button>
+        </div>
+    </form>
+    <table class="results-table" id="resultsTable">
+        <thead>
+        <tr>
+            <th>Serial Number</th>
+            <th>Price</th>
+            <th>Builder</th>
+            <th>Model</th>
+            <th>Type</th>
+            <th>Back Wood</th>
+            <th>Top Wood</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Search results will be inserted here -->
+        </tbody>
+    </table>
+</div>
 </body>
 </html>
